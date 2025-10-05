@@ -15,7 +15,7 @@ on:
       region:
         description: '选择部署区域'
         required: true
-        default: 'US(free)'
+        default: 'SG(free)'
         type: choice
         options:
           #  免费区域
@@ -59,7 +59,7 @@ on:
         default: ''
 
 env:
-  MEMORY: 256M
+  MEMORY: 512M
 
 jobs:
   deploy-app:
